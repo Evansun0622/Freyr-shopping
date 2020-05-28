@@ -8,20 +8,19 @@
       </view>
     </view>
   </view>
-
-  <view class='content'>
-    <!-- swiper -->
-    <swiper autoplay="{{autoplay}}" indicator-color="{{indicatorColor}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}} " circular='true' class='pic-swiper' indicator-dots previous-margin='20rpx' next-margin='20rpx'>
-      <block wx:for='{{indexImgs}}' wx:key=''>
-        <swiper-item class="banner-item">
-          <view class='img-box'>
-            <image src='../../images/icon/newProd.png'  data-prodid='{{item.relation}}' bindtap='toProdPage' class='banner'></image>
-          </view>
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
+      
+        <swiper-item>
+          <image src="./../../images/shop_info_one_list_img3.jpg" />
         </swiper-item>
-      </block>
+        <swiper-item>
+          <image src="./../../images/rongyao_v8.jpg" />
+        </swiper-item>
+        <swiper-item>
+          <image src="./../../images/rongyao_play5c.jpg" />
+        </swiper-item>
+      
     </swiper>
-    <!-- end swiper -->
-
     <view class='cat-item'>
       <view class='item' bindtap='toClassifyPage' data-sts="1">
         <image src='../../images/icon/newProd.png'></image>
@@ -147,5 +146,5 @@
       </view>
     </view>
   </block>
-</view>
+
 <wxs module="wxs" src="../../wxs/number.wxs" />
