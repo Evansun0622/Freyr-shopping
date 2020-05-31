@@ -11,13 +11,13 @@
   <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
       
         <swiper-item>
-          <image src="./../../images/shop_info_one_list_img3.jpg" />
+          <image src="./../../images/f1.jpg" />
         </swiper-item>
         <swiper-item>
-          <image src="./../../images/rongyao_v8.jpg" />
+          <image src="./../../images/f2.jpg" />
         </swiper-item>
         <swiper-item>
-          <image src="./../../images/rongyao_play5c.jpg" />
+          <image src="./../../images/Freyr logo1.jpg" />
         </swiper-item>
       
     </swiper>

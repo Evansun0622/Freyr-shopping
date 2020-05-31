@@ -61,7 +61,7 @@ swiper.pic-swiper .banner {
   top: 0;
 }
 .banner {
-  height: 350rpx;
+  height: 450rpx;
 }
 .bg-sear .section {
   display: flex;
