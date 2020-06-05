@@ -145,7 +145,7 @@ page {
 
 .rightcontent .adver-map .item-a {
   display: block;
-  font-size: 0;
+  font-size: 50rpx;
   width: 100%;
 }
 

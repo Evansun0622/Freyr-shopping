@@ -15,39 +15,50 @@
   <view class="main">
     <!-- 左侧菜单start -->
     <scroll-view scroll-y="true" class='leftmenu'>
-      <block wx:for='{{ categoryList}}' wx:key=''>
-        <view class='menu-item {{selIndex==index?"active":""}} ' data-index="{{index}}" data-id="{{item.categoryId}}" bindtap='onMenuTab'>
-          {{item.categoryName}}
+        <view class='menu-item'>
+        <text> 手机 </text>
         </view>
-      </block>
+        <view class='menu-item'>
+        <text> 家具 </text>
+        </view>
+        <view class='menu-item'>
+        <text> 书籍 </text>
+        </view>
+        <view class='menu-item'>
+        <text> 电器 </text>
+        </view>
+        <view class='menu-item'>
+        <text> 生活用品 </text>
+        </view>
+        <view class='menu-item'>
+        <text> 运动户外 </text>
+        </view> 
+        <view class='menu-item'>
+        <text> 宠物用品 </text>
+        </view> 
+        <view class='menu-item'>
+        <text> 玩具 </text>
+        </view> 
+        <view class='menu-item'>
+        <text> 园艺 </text>
+        </view>
+        <view class='menu-item'>
+        <text> 技能服务 </text>
+        </view>
     </scroll-view>
     <!-- 左侧菜单end -->
 
     <!-- 右侧内容start -->
-    <scroll-view scroll-y="true" class='rightcontent' scroll-into-view="{{toViewId}}">
+    <scroll-view scroll-y="true" class='rightcontent'>
     <!-- <block wx:for='{{ productList}}' wx:key=''> -->
-      <view class='adver-map'>
-        <view class='item-a'>
-            <image src='{{categoryImg}}' mode='widthFix'></image>
-        </view>
-      </view>
       <view class='cont-item'>
-        <block wx:for='{{productList}}' wx:key=''>
-          <view class='show-item'  bindtap='toProdPage' data-prodid="{{item.prodId}}">
+          <view class='show-item'  bindtap='toProdPage'>
             <view class='more-prod-pic'>
-              <image src='{{item.pic}}' class='more-pic'mode='widthFix'></image>
+              <image src='../../images/icon/car-new.png'  class='more-pic'mode='widthFix'></image>
             </view>
-            <view class='prod-text-right'>
-              <view class='prod-text more'>{{item.prodName}}</view>
-              <view class='cate-prod-info'>{{item.brief}}</view>
-              <view class='prod-price more'>
-                <text class='symbol'>￥</text> <text class='big-num'>{{wxs.parsePrice(item.price)[0]}}</text><text class='small-num'>.{{wxs.parsePrice(item.price)[1]}}</text> 
-              </view>
             </view>
           </view>
          
-        </block>
-      </view>
      <!-- </block> -->
     </scroll-view>
     <!-- 右侧内容end -->
