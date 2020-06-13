@@ -8,19 +8,6 @@
       </view>
     </view>
   </view>
-  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="500">
-      
-        <swiper-item>
-          <image src="./../../images/f1.jpg" />
-        </swiper-item>
-        <swiper-item>
-          <image src="./../../images/f2.jpg" />
-        </swiper-item>
-        <swiper-item>
-          <image src="./../../images/Freyr logo1.jpg" />
-        </swiper-item>
-      
-    </swiper>
     <view class='cat-item'>
       <view class='item' bindtap='toClassifyPage' data-sts="1">
         <image src='../../images/icon/newProd.png'></image>
@@ -52,6 +39,60 @@
     </view>
 
   </view>
+<view class='category'>
+  <text class="placeholder"> 家具 </text>
+</view>
+<view class='goods'>
+        <image src='../../images/Freyr logo.jpg'></image>
+        <text>书柜</text>
+      <view class='price'>
+      <text class='left'>￥25</text>
+
+      </view>
+      <view class='place'>
+       <image src='../../images/icon/dot.png'></image>
+      <text>BU</text>
+      </view>
+</view>
+<view class='goods'>
+        <image src='../../images/Freyr logo.jpg'></image>
+        <text>桌子</text>
+      <view class='price'>
+      <text class='left'>￥66</text>
+
+      </view>
+      <view class='place'>
+       <image src='../../images/icon/dot.png'></image>
+      <text>UNC</text>
+      </view>
+</view>  
+<view class='goods'>
+        <image src='../../images/Freyr logo.jpg'></image>
+        <text>椅子</text>
+      <view class='price'>
+      <text class='left'>￥49</text>
+
+      </view>
+      <view class='place'>
+       <image src='../../images/icon/dot.png'></image>
+      <text>NYU</text>
+      </view>
+</view>
+<view class='goods'>
+        <image src='../../images/Freyr logo.jpg'></image>
+        <text>沙发</text>
+      <view class='price'>
+      <text class='left'>￥138</text>
+
+      </view>
+      <view class='place'>
+       <image src='../../images/icon/dot.png'></image>
+      <text>USC</text>
+      </view>
+</view>
+<view class='category'>
+  <text class="placeholder"> 电器 </text>
+</view>
 <view class='goods'>
         <image src='../../images/Freyr logo.jpg'></image>
         <text>手机</text>
@@ -61,19 +102,19 @@
       </view>
       <view class='place'>
        <image src='../../images/icon/dot.png'></image>
-      <text>Boston</text>
+      <text>BU</text>
       </view>
 </view>
 <view class='goods'>
         <image src='../../images/Freyr logo.jpg'></image>
-        <text>桌椅</text>
+        <text>冰箱</text>
       <view class='price'>
       <text class='left'>￥66</text>
 
       </view>
       <view class='place'>
        <image src='../../images/icon/dot.png'></image>
-      <text>Chapel Hill</text>
+      <text>UNC</text>
       </view>
 </view>  
 <view class='goods'>
@@ -85,19 +126,19 @@
       </view>
       <view class='place'>
        <image src='../../images/icon/dot.png'></image>
-      <text>New York</text>
+      <text>NYU</text>
       </view>
 </view>
 <view class='goods'>
         <image src='../../images/Freyr logo.jpg'></image>
-        <text>微积分教材</text>
+        <text>电饭煲</text>
       <view class='price'>
       <text class='left'>￥138</text>
 
       </view>
       <view class='place'>
        <image src='../../images/icon/dot.png'></image>
-      <text>Raleigh</text>
+      <text>USC</text>
       </view>
 </view>
 
