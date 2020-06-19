@@ -8,6 +8,8 @@
       </view>
     </view>
   </view>
+  <dropdownmenu dropDownMenuTitle='{{dropDownMenuTitle}}' dropDownMenuDistrictData='{{data1}}' dropDownMenuSourceData='{{data2}}' dropDownMenuStyleData='{{data3}}' dropDownMenuFilterData='{{data4}}'
+  bind:selectedItem='selectedItem' />
     <view class='cat-item'>
       <view class='item' bindtap='toClassifyPage' data-sts="1">
         <image src='../../images/icon/newProd.png'></image>
@@ -15,15 +17,15 @@
       </view>
       <view class='item' bindtap='toClassifyPage' data-sts="2">
         <image src='../../images/icon/timePrice.png'></image>
-        <text>限时特惠</text>
+        <text>拍卖</text>
       </view>
       <view class='item' bindtap='toClassifyPage' data-sts="3">
         <image src='../../images/icon/neweveryday.png'></image>
-        <text>每日疯抢</text>
+        <text>物品排行</text>
       </view>
       <view class='item' bindtap='toCouponCenter'>
         <image src='../../images/icon/newprods.png'></image>
-        <text>领优惠券</text>
+        <text>隐藏菜单</text>
       </view>
     </view>
 

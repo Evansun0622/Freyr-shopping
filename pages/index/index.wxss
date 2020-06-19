@@ -40,6 +40,9 @@ swiper.pic-swiper .img-box {
 .banner image{
   width:100%;
 }
+.dropdownmenu{
+ text-align: right;
+}
 swiper.pic-swiper .banner {
   position: relative;
   width: 690rpx;
@@ -53,10 +56,10 @@ swiper.pic-swiper .banner {
 .container .bg-sear {
   position: fixed;
   z-index: 999;
-  width: 100%;
+  width: 83%;
   line-height: 56rpx;
   background: #fff;
-  padding-bottom: 20rpx;
+  padding-bottom: 15rpx;
   text-align: center;
   top: 0;
 }
@@ -71,8 +74,9 @@ swiper.pic-swiper .banner {
   background: #fff;
   z-index: 1;
   border-radius: 50rpx;
-  width: 92%;
-  margin: auto;
+  width: 98%;
+  margin-top: 10rpx;
+  margin-right: 0rpx;
   background: #f7f7f7;
 }
 

@@ -1,7 +1,12 @@
 {
+  "usingComponents": {
+    "dropdownmenu": "../../components/dropdownmenu/dropdownmenu"
+  },
   "backgroundTextStyle": "dark",
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTextStyle": "black",
   "enablePullDownRefresh": true,
   "navigationBarTitleText": "飞鸟购物"
 }
+
+  
