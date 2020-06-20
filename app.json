@@ -2,6 +2,7 @@
   "pages": [
     
     "pages/index/index",
+    "pages/poll/poll",
     "pages/logs/logs",
     "pages/user/user",
     "pages/basket/basket",
@@ -43,6 +44,13 @@
         "text": "物品分类",
         "iconPath": "images/tabbar/category.png",
         "selectedIconPath": "images/tabbar/category-sel.png"
+      },
+      {
+        "pagePath": "pages/poll/poll",
+        "text": "发布",
+        "iconPath": "images/tabbar/poll.jpg",
+        "selectedIconPath": "images/tabbar/poll.jpg"
+
       },
       {
         "pagePath": "pages/basket/basket",
